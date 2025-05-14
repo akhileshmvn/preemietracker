@@ -1,0 +1,107 @@
+<!-- Save this as preemie_tracker.html and open in browser -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preemie Baby Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f9fd;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #4a90e2;
+      margin-top: 40px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+      background: white;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+    th, td {
+      border: 1px solid #dfe6ed;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #eaf3fc;
+      font-weight: 600;
+    }
+    input[type="text"] {
+      width: 100%;
+      border: 1px solid #ccc;
+      padding: 6px;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Preemie Baby Growth & Milestone Tracker</h1>
+    <p>Track your baby's progress with love and clarity 💙</p>
+  </header>
+  <main>
+    <section>
+      <h2>Milestone Tracker</h2>
+      <table>
+        <tr><th>Milestone</th><th>Corrected Age</th><th>Expected Date</th><th>Achieved On</th></tr>
+        <tr><td>Smiling (social)</td><td>6–8 weeks</td><td>Aug 1–15, 2025</td><td><input type="text" /></td></tr>
+        <tr><td>Lifting head on tummy</td><td>1.5–2 months</td><td>Aug 5–20, 2025</td><td><input type="text" /></td></tr>
+        <tr><td>Rolling (tummy to back)</td><td>3–4 months</td><td>Sept 20–Oct 20</td><td><input type="text" /></td></tr>
+        <tr><td>Sitting (independently)</td><td>6–7 months</td><td>Dec 20–Jan 20</td><td><input type="text" /></td></tr>
+        <tr><td>Walking (independently)</td><td>12–15 months</td><td>June–Sept 2026</td><td><input type="text" /></td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Feeding Frequency Transition Table</h2>
+      <table>
+        <tr><th>Weight Range</th><th>Corrected Age</th><th>Recommended Frequency</th><th>Current Plan</th></tr>
+        <tr><td>&lt; 1.8 kg</td><td>32–33 weeks</td><td>Every 2 hours (10–12/day)</td><td><input type="text" /></td></tr>
+        <tr><td>1.8–2.0 kg</td><td>33.5–34.5 weeks</td><td>Every 2.5–3 hours (8–10/day)</td><td><input type="text" /></td></tr>
+        <tr><td>2.0–2.3 kg</td><td>34.5–36 weeks</td><td>Every 3 hours (8/day)</td><td><input type="text" /></td></tr>
+        <tr><td>2.3–2.5 kg</td><td>36–37 weeks</td><td>Every 3–4 hours (6–8/day)</td><td><input type="text" /></td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Baby Weight Milestone Table</h2>
+      <table>
+        <tr><th>Date</th><th>Expected Weight</th><th>Actual Weight</th></tr>
+        <tr><td>May 13</td><td>1.675 kg</td><td><input type="text" /></td></tr>
+        <tr><td>May 21</td><td>1.85–1.90 kg</td><td><input type="text" /></td></tr>
+        <tr><td>May 30</td><td>2.10–2.15 kg</td><td><input type="text" /></td></tr>
+        <tr><td>June 10</td><td>2.30–2.45 kg</td><td><input type="text" /></td></tr>
+        <tr><td>June 20 (Term)</td><td>2.50–2.60 kg</td><td><input type="text" /></td></tr>
+      </table>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Preemie Care Tracker | Made with ❤️ for your little miracle
+  </footer>
+</body>
+</html>
